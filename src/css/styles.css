@@ -1,15 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap");
+
 .container {
+  font-family: "Comfortaa", cursive;
   position: relative;
+  padding: 10px 30px;
   width: 100vw;
   height: 100vh;
 }
-
-.drag-letter {
-  font-size: 20px;
-  color: blueviolet;
-  display: inline-block;
+.input-form {
+  margin-right: 20px;
 }
 
-.drag-letter:not(:last-child) {
-  padding-right: 5px;
+.input {
+  font-family: "Comfortaa", cursive;
+  border: 1px solid rgb(196, 183, 183);
+  color: rgb(82, 75, 75);
+  border-radius: 15px;
+  padding: 2px 5px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.submit-button {
+  font-family: "Comfortaa", cursive;
+  padding: 5px 15px;
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(196, 183, 183);
+  transition: all ease 500ms;
+}
+
+.submit-button:hover,
+.submit-button:focus {
+  color: white;
+  background-color: rgb(114, 105, 105);
+}
+
+.drag-letter {
+  position: absolute;
+  display: inline-block;
+  font-size: 20px;
+  color: blueviolet;
 }
