@@ -1,0 +1,15 @@
+.container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.drag-letter {
+  font-size: 20px;
+  color: blueviolet;
+  display: inline-block;
+}
+
+.drag-letter:not(:last-child) {
+  padding-right: 5px;
+}
